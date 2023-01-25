@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;800&family=Poppins:wght@400;500;700&display=swap');
+
+h1, h2, h3, h4, h5 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 800;
+}
+p, a {
+    font-family: 'Poppins', sans-serif;
+}
+input:focus {
+    border: none;
+}
+.container {
+    max-width: 1170px;
+}
+
+/* navbar style */
+.banner-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(/images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6rem;
+}
+.btn-consult {
+    background-color: #B68C5A;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 18px;
+}
+.btn-consult:hover {
+    background-color: #de8110;
+    color: #FFF;
+}
+.nav-item a {
+    color: #707070;
+}
+
+/* banner style */
+.banner-text {
+    top: 22rem;
+    color: #FFF;
+}
+.banner-text h1 {
+    font-size: 72px;
+}
+.banner-text p {
+    font-weight: 400;
+    font-size: 16px;
+}
+.banner-search input {
+    width: 24rem!important;
+    height: 4rem;
+}
+.banner-button button {
+    width: 8rem;
+    height: 4rem;
+    background: #de8110;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFF;
+}
+.banner-button:hover button{
+    background: #de8110;
+}
+
+/* service style */
+.card {
+    transition: .5s;
+}
+.card:hover {
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+}
+.section-title h2 {
+    font-size: 40px;
+}
+.accor-btn-cstm {
+    font-weight: 800;
+    font-size: 20px;
+    color: #414040;
+}
+
+/* footer */
+.footer-email li i {
+    background-color: #B68C5A;
+    padding: 22px;
+    color: #FFF;
+}
+.footer-area {
+    background: #111111;
+    color: #FFF;
+}
+.footer-area > li {
+    color: #CFCFCF;
+}
+.footer-area > p {
+    color: #CFCFCF;
+}
+.footer-btn > button {
+    background-color: #B68C5A;
+    right: 50%;
+    color: #FFF;
+}
+.footer-btn:hover button {
+    background-color: #B68C5A;
+    color: #FFF;
+}
+
+
+/* Mobile Responsive Styles */
+
+@media screen and (max-width: 576px) {
+    .banner-img {
+        max-width: 100%;
+        background-size: cover;
+        padding: 15px 0;
+    }
+    .banner-text h1 {
+        font-size: 22px;
+    }
+    .banner-text p {
+        font-size: 12px;
+        padding: 0 0!important;
+    }
+    .banner-search {
+        width: 18rem!important;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+    .mycard {
+        border: 1px solid #ddd!important;
+    }
+    .faq__img img {
+        padding-top: 1rem;
+    }
+    .footer-single-item {
+        border-bottom: 1px solid rgba(221, 221, 221, 0.339);
+        padding: 2rem 0;
+        margin: 0px 65px;
+    }
+    .footer-four {
+        border-bottom: none;
+    }
+    .btn__footer__email {
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }
+}
